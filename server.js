@@ -7,14 +7,15 @@ const users = []
 
 app.post('/usuarios', (req, res) => {
     
-    console.log(req.body)
+    users.push(req.body)
+
     res.send('ok aqui deu certo')
 
 })
 
 
 app.get('/usuarios', (req, res) => {
-    res.send('ok deu bom')
+    res.json(users)
 })
 
 
