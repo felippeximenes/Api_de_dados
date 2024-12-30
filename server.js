@@ -49,7 +49,9 @@ app.post('/usuarios', async (req, res) => {
 
 })
 
-
+app.delete('usuarios/:id', async (req, res) => {
+    await prisma.user.delete
+})
 
 app.listen(3000)
 
