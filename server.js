@@ -49,8 +49,14 @@ app.post('/usuarios', async (req, res) => {
 
 })
 
-app.delete('usuarios/:id', async (req, res) => {
-    await prisma.user.delete
+app.delete('/usuarios/:id', async (req, res) =>{
+    await prisma.user.delete({
+        where: {
+            id: req.params.id,
+        },
+    })
+
+    res.status(200).json({ message: 'Usuarios deletado com Sucesso!'})
 })
 
 app.listen(3000)
