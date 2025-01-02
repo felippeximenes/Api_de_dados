@@ -34,6 +34,8 @@ This project consists of an API developed with Node.js and Express, which allows
 
 4. Start the server with npm start.
 
+![Captura de tela 2025-01-02 141521](https://github.com/user-attachments/assets/4f2bec30-5957-4fe7-b57a-46819d9ba710)
+
 
 
 # PT- BR
@@ -71,3 +73,6 @@ Este projeto consiste em uma API desenvolvida com Node.js e Express, que permite
 3. Configure seu banco de dados MongoDB.
 
 4. Inicie o servidor com npm start.
+
+
+![Captura de tela 2025-01-02 141521](https://github.com/user-attachments/assets/4f2bec30-5957-4fe7-b57a-46819d9ba710)
