@@ -1,3 +1,5 @@
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/felippeximenes/Api_de_dados/blob/main/LICENSE) 
+
 # Data API Project
 
 This project consists of an API developed with Node.js and Express, which allows for the creation, reading, updating, and deletion (CRUD) of users in a MongoDB database. The API is designed to facilitate interaction between the frontend and backend, enabling web applications to access and manipulate data efficiently.
